@@ -12,7 +12,6 @@ import java.util.Scanner;
  * Created by Ken Kohl on 2/22/2017.
  */
 public class NearestPoints {
-    //TODO - mostly everything
     private ArrayList<Float> pointSet;
     private HashTable hashTable;
 
@@ -65,7 +64,7 @@ public class NearestPoints {
      * the class HashTable. Otherwise, you will receive zero credit.
      */
     public void buildDataStructure() {
-        int size = (int) (1.5 * pointSet.size());
+        int size = (int) (1.5 * pointSet.size()); // Project description stated that table size shoulld be > 1.5n where n is number of elements.
         hashTable = new HashTable(size);
         for (Float point : pointSet) {
             int tmpKey = (int) Math.floor(point);
@@ -75,7 +74,7 @@ public class NearestPoints {
     }
 
     /**
-     * @param p
+     * @param p point to find neighbors of
      * @return an array list of points (from the S) that are close to p
      */
     public ArrayList<Float> npHashNearestPoints(float p) {
@@ -119,7 +118,7 @@ public class NearestPoints {
     /**
      * For every point p ∈ S, compute the list of all points from S that
      * are close to p by calling the method NPHashNearestPoints(p). Write the results to a file named
-     * HashSolution.txt. The expected time of this method must be O(n+P p∈S N(p)); otherwise you will receive zero credit.
+     * HashSolution.txt.
      */
     public void allNearestPointsHash() {
         try {
@@ -129,23 +128,6 @@ public class NearestPoints {
                 writer.print(f);
                 for (Float point : points) {
                     writer.print(" " + point);
-                }
-                writer.println();
-            }
-            writer.close();
-        } catch (IOException e) {
-            System.out.println(e);
-        }
-    }
-
-    public void printHashTable() {
-        try {
-            PrintWriter writer = new PrintWriter("hashTable.txt", "UTF-8");
-            for (int i = 0; i < 100001; i++) {
-                writer.print(i + ":");
-                ArrayList<Tuple> t = hashTable.search(i);
-                for (Tuple m : t) {
-                    writer.print(" " + m.getValue());
                 }
                 writer.println();
             }

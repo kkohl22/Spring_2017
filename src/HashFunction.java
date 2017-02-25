@@ -10,8 +10,6 @@ public class HashFunction {
 
     HashFunction(int range) {
         setP(range);
-        setA(getRandom());
-        setB(getRandom());
     }
 
     /**
@@ -87,6 +85,8 @@ public class HashFunction {
                 }
             }
         }
+        setA(getRandom());
+        setB(getRandom());
     }
 
     /**
