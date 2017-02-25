@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788f701b-e13e-4eec-97c4-3e8625a0e961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ken_Kohl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/nearestPoints.java" afterPath="$PROJECT_DIR$/src/NearestPoints.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Spring_2017/HashFunction.class" afterPath="$PROJECT_DIR$/out/production/Spring_2017/HashFunction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Spring_2017/HashTable.class" afterPath="$PROJECT_DIR$/out/production/Spring_2017/HashTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Spring_2017/Tests.class" afterPath="$PROJECT_DIR$/out/production/Spring_2017/Tests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring_2017.iml" afterPath="$PROJECT_DIR$/Spring_2017.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HashFunction.java" afterPath="$PROJECT_DIR$/src/HashFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HashTable.java" afterPath="$PROJECT_DIR$/src/HashTable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RecSys.java" afterPath="$PROJECT_DIR$/src/RecSys.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests.java" afterPath="$PROJECT_DIR$/src/Tests.java" />
     </list>
     <ignored path="Spring_2017.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +31,10 @@
       <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="86" column="37" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="37" />
+            <state relative-caret-position="69">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#HashTable#0;class#HashTable#0" expanded="false" />
                 <element signature="method#maxLoad#0;class#HashTable#0" expanded="false" />
                 <element signature="e#1491#1492#0" expanded="true" />
                 <element signature="e#1522#1523#0" expanded="true" />
@@ -60,20 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashFunction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HashFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="368">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
@@ -83,9 +60,11 @@
       <file leaf-file-name="RecSys.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RecSys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="278">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +72,8 @@
       <file leaf-file-name="NearestPoints.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NearestPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#NearestPoints#0;class#NearestPoints#0" expanded="false" />
@@ -126,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/RecSys.java" />
         <option value="$PROJECT_DIR$/hashTable.txt" />
         <option value="$PROJECT_DIR$/src/nearestPoints.java" />
         <option value="$PROJECT_DIR$/src/_MockHashTable.java" />
@@ -141,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/tempTest/tmp.java" />
         <option value="$PROJECT_DIR$/src/Tests.java" />
         <option value="$PROJECT_DIR$/src/NearestPoints.java" />
+        <option value="$PROJECT_DIR$/src/RecSys.java" />
       </list>
     </option>
   </component>
@@ -790,7 +769,7 @@
       <workItem from="1487635422311" duration="4476000" />
       <workItem from="1487822479155" duration="2137000" />
       <workItem from="1487943979735" duration="22822000" />
-      <workItem from="1487975111923" duration="12454000" />
+      <workItem from="1487975111923" duration="16037000" />
     </task>
     <servers />
   </component>
@@ -827,7 +806,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47328000" />
+    <option name="totallyTimeSpent" value="50911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -840,10 +819,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31520224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31520224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08647141" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1895887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -937,7 +916,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HashTable#0;class#HashTable#0" expanded="false" />
             <element signature="method#maxLoad#0;class#HashTable#0" expanded="false" />
             <element signature="e#1491#1492#0" expanded="true" />
             <element signature="e#1522#1523#0" expanded="true" />
@@ -1027,7 +1005,6 @@
           <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HashTable#0;class#HashTable#0" expanded="false" />
             <element signature="method#maxLoad#0;class#HashTable#0" expanded="false" />
             <element signature="e#1491#1492#0" expanded="true" />
             <element signature="e#1522#1523#0" expanded="true" />
@@ -1091,7 +1068,6 @@
           <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HashTable#0;class#HashTable#0" expanded="false" />
             <element signature="method#maxLoad#0;class#HashTable#0" expanded="false" />
             <element signature="e#1491#1492#0" expanded="true" />
             <element signature="e#1522#1523#0" expanded="true" />
@@ -1133,7 +1109,6 @@
           <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HashTable#0;class#HashTable#0" expanded="false" />
             <element signature="method#maxLoad#0;class#HashTable#0" expanded="false" />
             <element signature="e#1491#1492#0" expanded="true" />
             <element signature="e#1522#1523#0" expanded="true" />
@@ -1320,29 +1295,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#HashTable#0;class#HashTable#0" expanded="false" />
-            <element signature="method#maxLoad#0;class#HashTable#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1793#1794#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tempTest/tmp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NearestPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#NearestPoints#0;class#NearestPoints#0" expanded="false" />
+            <element signature="docComment;method#naiveNearestPoints#0;class#NearestPoints#0" expanded="false" />
+            <element signature="method#naiveNearestPoints#0;class#NearestPoints#0" expanded="false" />
+            <element signature="method#allNearestPointsNaive#0;class#NearestPoints#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1354,33 +1333,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NearestPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+        <state relative-caret-position="69">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#NearestPoints#0;class#NearestPoints#0" expanded="false" />
-            <element signature="docComment;method#naiveNearestPoints#0;class#NearestPoints#0" expanded="false" />
-            <element signature="method#naiveNearestPoints#0;class#NearestPoints#0" expanded="false" />
-            <element signature="method#allNearestPointsNaive#0;class#NearestPoints#0" expanded="false" />
+            <element signature="method#maxLoad#0;class#HashTable#0" expanded="false" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1838#1839#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RecSys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="278">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
