@@ -10,8 +10,8 @@ public class HashFunction {
 
     HashFunction(int range) {
         setP(range);
-        setA(Math.abs(getRandom(getP())));
-        setB(Math.abs(getRandom(getP())));
+        setA(getRandom());
+        setB(getRandom());
     }
 
     /**
@@ -39,8 +39,14 @@ public class HashFunction {
      * @param x The value to be hashed
      * @return The hashed value of x
      */
-    public int hash(int x) {
-        return ((getA() * x + getB()) % getP());
+    protected int hash(int x) {
+        long tmpX = (long) x;
+        long tmpA = (long) getA();
+        long tmpB = (long) getB();
+        long tmpP = (long) getP();
+        long result;
+        result = (tmpA * tmpX + tmpB) % tmpP;
+        return (int) result;
     }
 
     /**
@@ -66,8 +72,8 @@ public class HashFunction {
      *
      * @param start The first index to check if prime
      */
-    private void setP(int start) {
-        if (start < 0) {
+    public void setP(int start) {
+        if (start < 0 || start == 2) {
             p = 2;
         } else if (isPrime(start)) {
             p = start;
@@ -97,12 +103,19 @@ public class HashFunction {
     }
 
     /**
-     * @param max The max numebr the random number should be.
      * @return A random value between 0 and max.
      */
-    private int getRandom(int max) {
-        Random random = new Random(max);
-        return random.nextInt();
+
+    private int getRandom() {
+        return (int) (Math.random() * (getP() - 1) + 1);
+    }
+
+    private int mod(int x, int y) {
+        int result = x % y;
+        if (result < 0) {
+            result += y;
+        }
+        return result;
     }
 }
 

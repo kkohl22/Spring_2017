@@ -17,7 +17,8 @@ public class HashTable {
      */
     HashTable(int size) {
         h = new HashFunction(size);
-        table = new ArrayList[h.getP()];
+        this.size = h.getP();
+        table = new ArrayList[size()];
     }
 
     /**
@@ -42,19 +43,16 @@ public class HashTable {
     /**
      * @return the average load of the hash table
      */
-    public int averageLoad() {
+    public float averageLoad() {
         int buckets = 0;
         for (int i = 0; i < size(); i++) {
-            if (table[i] == null) {
-                continue;
-            }
-
-            if (table[i].isEmpty()) {
+            if (table[i] == null || table[i].isEmpty()) {
                 continue;
             }
             buckets++;
         }
-        return numElements() / buckets;
+        int temp = (int)(numElements() / buckets);
+        return (numElements() / buckets);
     }
 
     /**
@@ -67,14 +65,14 @@ public class HashTable {
     /**
      * @return the number of Tuples that are currently stored in the hash table.
      */
-    private int numElements() {
+    public int numElements() {
         return numElements;
     }
 
     /**
      * @return the load factor which is numElements()/size()
      */
-    private int loadFactor() {
+    public int loadFactor() {
         return numElements() / size();
     }
 
@@ -83,12 +81,12 @@ public class HashTable {
      * @return True if the tuple added correctly. False otherwise.
      */
     public boolean add(Tuple t) {
-        if (false/*load is too big*/) {
+        if (loadFactor() > 0.7) {
             table = resize();
         }
         int index = h.hash(t.getKey());
         if (table[index] == null) {
-            table[index] = new ArrayList<>(0);
+            table[index] = new ArrayList<>();
         }
         if (table[index].add(t)) {
             numElements++;
@@ -111,11 +109,26 @@ public class HashTable {
 
     /**
      * @param t Tuple to be removed
-     * @return True if the tuple was succesfully removed. False otherwise.
+     * @return True if the tuple was successfully removed. False otherwise.
      */
     public boolean remove(Tuple t) {
         int index = h.hash(t.getKey());
-        return table[index].remove(t);
+        ArrayList<Tuple> temp = table[index];
+        for(Tuple tuple : temp) {
+            if(tuple.equals(t)) {
+               if(table[index].remove(tuple)) {
+                   numElements--;
+                   return true;
+               }
+            }
+        }
+        return false;
+      /*
+        if(table[index].remove(t);) {
+            numElements--;
+            return true;
+        }
+        return false;*/
     }
 
 
